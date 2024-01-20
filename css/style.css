@@ -1,0 +1,129 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conten{
+    background-color:#1A2238;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    padding: 20px;
+}
+.logo a{
+    color: #eaeaea;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all.6s ease 0S;
+}
+.logo a:hover{
+    color: #FF6A3D;
+    transform: rotate(2deg);
+    text-decoration: underline;
+}
+.nav li{
+    display: inline-block;
+    padding: 10px;
+    padding-top: 35px;
+}
+.nav a{
+    color: #eaeaea;
+    text-decoration: none;
+    transition: all .6s ease 0s;
+    font-weight: bold;
+}
+.nav a:hover{
+    color: #ff6A3D;
+    text-decoration: underline;
+    transform: rotate(2deg);
+}
+.btn{
+    background-color:  rgb(149, 14, 32);
+    font-size: bolder;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #151515;
+    border-radius: 8px;
+}
+.intro{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.title{
+    font-size: 20px;
+    color: #151515;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+.isi{
+    font-size: 30px;
+    color: #151515;
+    font-weight: bolder;
+}
+.img-1{
+    height: 500px;
+    margin-top: 10px;
+}
+.about{
+    padding-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A2238;
+}
+.about p{
+    color: #eaeaea;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+.card{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 20px rgba(0,0,0,0.5);
+}
+.card-item{
+    color: #222;
+    background-color: #f7f7f7;
+    padding: 15px;
+    width: 20%;
+    box-shadow: 20px rgba(0,0,0,0.5);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card-isi{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.card-header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.card-item img{
+    width: 40px;
+    height: 40px;
+}
+.akhir{
+    margin-top: 50px;
+    background-color: #1A2238;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    color: #eaeaea;
+}
